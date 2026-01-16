@@ -35,7 +35,7 @@ function display() {
     
     Paper Presentation (30%): ${data[id].Paper}
 
-    Project (10%)
+    Project
     Proposal    (20%): ${data[id].Proposal}
     Final Demo  (15%): ${data[id].Demo}
     Final Report(25%): ${data[id].Report}
