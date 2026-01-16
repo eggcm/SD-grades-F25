@@ -2,7 +2,7 @@ let data = {}
 const p = document.getElementById('display-grade');
 
 
-  Papa.parse("./SD-grades-F25u.csv", {
+  Papa.parse("./SD-grades-F25.csv", {
 // Papa.parse("test.csv", {
     download: true,
     encoding: "utf-8",
