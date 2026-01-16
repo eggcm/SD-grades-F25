@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <meta charset="gb2312"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+    <main>
+        <h1>2025 Fall Spatial Databases</h1>
+	<h1>Grade Checking</h1>
+        <label for="sid-mid">Please input your student ID number with group ID:</label> 
+	<p>(Here is an example. Suppose that you student ID is 107599013 and you group ID is 7. Then, the input string is 10759901307.)</p>
+        <input type="text" name="sid-mid" id="sid-mid" value="">
+        <button onclick="display()">display</button>
+        <p id="display-grade"></p>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
